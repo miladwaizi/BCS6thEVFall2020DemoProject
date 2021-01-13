@@ -285,7 +285,9 @@
                     </div>
         </div>
         <div class="content-body">
+            <form id="form1" class="form" runat="server">
             <asp:ContentPlaceHolder ID="contentBody" runat="server"></asp:ContentPlaceHolder>
+            </form>
         </div>
       </div>
     </div>
